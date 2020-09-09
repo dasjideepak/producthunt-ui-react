@@ -1,11 +1,15 @@
+body {
+  background-color: rgb(206, 204, 204);
+}
+
 .container {
-  max-width: 1480px;
+  max-width: 1080px;
+  padding: 0 4px;
   margin: 0 auto;
 }
 
 .flex {
   display: flex;
-  justify-content: space-between;
 }
 
 .grid {
