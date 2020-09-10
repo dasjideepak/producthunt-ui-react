@@ -3,6 +3,8 @@ import Header from "../src/components/Header";
 import PopularDiscussionCard from "../src/components/PopularDiscussionCard";
 import ProjectCard from "./components/ProjectCard";
 import UpcomingProjects from "./components/UpcomingProjects";
+import HiringNow from "./components/HiringNow";
+import NewsLetter from "./components/NewsLetter";
 
 function App() {
   return (
@@ -15,12 +17,10 @@ function App() {
         </div>
         <div className="right-side">
           <UpcomingProjects />
-          {/* <UpcomingProjectsCard />
-        <HiringNowCard /> 
-        <NewsLetterCard /> 
-        <TopDiscussionCard /> 
-        <Footer />
-        */}
+          <HiringNow />
+          <NewsLetter />
+          {/* <TopDiscussionCard />
+          <Footer /> */}
         </div>
       </main>
     </div>

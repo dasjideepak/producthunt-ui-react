@@ -19,7 +19,7 @@ function UpcomingProjectComponent() {
 export default function UpcomingProjects() {
   return (
     <div className="upcoming-projects-sec">
-      <h1>
+      <h1 className="card-heading">
         Upcoming Projects<span>Powered by Ship</span>
       </h1>
       <div className="upcoming-project-container">
