@@ -1,0 +1,110 @@
+.discussion-card-sec {
+  padding: 24px 0;
+  h2 {
+    font-size: 12px;
+    letter-spacing: 0.4px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #6f6f6f;
+  }
+  .discussion-card {
+    box-shadow: 0 3px 2px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: #fff;
+    padding: 16px;
+    margin-top: 8px;
+    .user-detail-bar {
+      display: flex;
+      justify-content: space-between;
+      .user-detail {
+        display: flex;
+        align-items: center;
+        img {
+          width: 32px;
+          border-radius: 50%;
+        }
+        h4 {
+          padding-left: 8px;
+          font-size: 13px;
+          font-weight: 600;
+          cursor: pointer;
+        }
+        h4:hover {
+          text-decoration: underline;
+        }
+        h5 {
+          padding-left: 8px;
+          font-size: 13px;
+          color: #6f6f6f;
+        }
+      }
+      .time {
+        h5 {
+          font-size: 16px;
+          color: #6f6f6f;
+        }
+      }
+    }
+    .content-sec {
+      display: flex;
+      justify-content: space-between;
+      .text {
+        width: 90%;
+        h3 {
+          font-size: 20px;
+          padding: 12px 0;
+          font-weight: 600;
+        }
+        p {
+          font-size: 13px;
+          color: #6f6f6f;
+        }
+      }
+      .upvote-btn {
+        display: flex;
+        margin-top: 12px;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 24px;
+        border: 1px solid #e8e8e8;
+        height: 75px;
+        width: 63px;
+        font-size: 11px;
+        font-weight: 600;
+        cursor: pointer;
+      }
+      .upvote-btn:hover {
+        background-color: #e8e8e8;
+      }
+    }
+    .icons-bar {
+      margin-top: 28px;
+      padding: 12px 0 0 0;
+      border-top: 1px solid #e8e8e8;
+      .box {
+        font-size: 11px;
+        color: #6f6f6f;
+        font-weight: 600;
+        align-items: center;
+        border: 1px solid #e8e8e8;
+        padding: 2px 8px;
+        border-radius: 4px;
+        cursor: pointer;
+        span {
+          margin-left: 4px;
+          text-transform: uppercase;
+        }
+      }
+      .box:hover {
+        background-color: #e8e8e8;
+      }
+      .reply-box {
+        border: none;
+      }
+      .reply-box:hover {
+        background-color: transparent;
+        color: #918f8f;
+      }
+    }
+  }
+}
