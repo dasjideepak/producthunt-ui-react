@@ -9,7 +9,7 @@ export default function NewsLetter() {
           src="https://ph-files.imgix.net/9740ee2c-3fc9-4904-a058-deb8fe5def85.png?auto=format&auto=compress&codec=mozjpeg&cs=strip"
           alt="newsletter"
         />
-        <h3>The most anticipated app of 2020</h3>
+        <a href="##">The most anticipated app of 2020</a>
         <div className="text-and-button">
           <h4>
             Get the best new products in your inbox, every day

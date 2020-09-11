@@ -5,6 +5,8 @@ import ProjectCard from "./components/ProjectCard";
 import UpcomingProjects from "./components/UpcomingProjects";
 import HiringNow from "./components/HiringNow";
 import NewsLetter from "./components/NewsLetter";
+import TopDiscussion from "./components/TopDiscussion";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -19,8 +21,8 @@ function App() {
           <UpcomingProjects />
           <HiringNow />
           <NewsLetter />
-          {/* <TopDiscussionCard />
-          <Footer /> */}
+          <TopDiscussion />
+          <Footer />
         </div>
       </main>
     </div>

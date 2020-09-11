@@ -1,0 +1,27 @@
+.footer {
+  padding: 16px 0;
+  color: #6f6f6f;
+  font-size: 12px;
+  font-weight: 300;
+  a {
+    color: #6f6f6f;
+  }
+  a:hover {
+    color: #858383;
+  }
+  .footer-flex {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    text-transform: capitalize;
+    .flex {
+      align-items: center;
+      .icon {
+        font-size: 8px;
+      }
+    }
+  }
+  .copyright {
+    padding: 12px 0;
+  }
+}

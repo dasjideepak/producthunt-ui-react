@@ -1,49 +1,37 @@
-.card-heading {
-  padding: 20px 0 16px;
-  font-size: 16px;
-  font-weight: 600;
-  span {
-    padding-left: 4px;
-    font-weight: 400;
-    font-size: 13px;
-    color: #6f6f6f;
-  }
-}
-
-.upcoming-projects-sec {
-  .upcoming-project-container {
+.top-discussion-sec {
+  .top-discussion-container {
     background-color: white;
     box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
     border-radius: 4px;
     padding: 8px 20px;
-    h1 {
-      span {
-        padding-left: 4px;
-        font-weight: 400;
-        font-size: 13px;
-        color: #6f6f6f;
-      }
-    }
     .project-card {
       border-bottom: 1px solid #e8e8e8;
       display: flex;
       justify-content: space-between;
       align-items: center;
-      padding: 20px 0;
+      padding: 16px 0;
       .text-content {
         font-size: 13px;
-        h3 {
+        .flex {
+          padding-top: 4px;
+          align-items: center;
+          .icon {
+            font-size: 18px;
+          }
+          h5 {
+            padding: 0 8px 0 4px;
+          }
+        }
+        a {
           color: #000;
           font-weight: 600;
         }
-        h4 {
-          color: #6f6f66;
-          padding-bottom: 8px;
+        a:hover {
+          text-decoration: underline;
         }
         span {
           font-size: 11px;
           color: #6f6f6f;
-          text-transform: uppercase;
           font-weight: 600;
           cursor: pointer;
         }
@@ -53,33 +41,22 @@
       }
       img {
         width: 40px;
+        border-radius: 50%;
       }
     }
     button {
-      border: 1px solid #e8e8e8;
       width: 100%;
       padding: 8px 0;
       font-size: 11px;
       text-transform: uppercase;
+      letter-spacing: 0.5px;
       font-weight: 600;
       color: #cc4d29;
       margin: 16px 0;
       cursor: pointer;
     }
     button:hover {
-      background-color: #e8e8e8;
-    }
-    .hiring-btn {
-      font-size: 13px;
-      color: #6f6f6f;
-      font-weight: 600;
-      padding: 0 0 12px 0;
-      a {
-        color: #db502a;
-      }
-      a:hover {
-        color: #e7643f;
-      }
+      color: #e45e39;
     }
   }
 }
