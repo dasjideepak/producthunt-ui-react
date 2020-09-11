@@ -37,6 +37,63 @@ const projectsData = [
   },
   {
     image:
+      "https://ph-files.imgix.net/8c8aeb0f-8ce8-4a89-87bf-c7ad40bf3655.gif?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=80&h=80&fit=crop&dpr=2",
+    projectName: "IdeasAI",
+    title: "OpenAI-powered startup idea generator",
+    replies: 45,
+    category: "Productivity",
+    upvotes: 40,
+  },
+  {
+    image:
+      "https://ph-files.imgix.net/1658b209-59fc-466b-95e0-a8073e667ffd.gif?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=80&h=80&fit=crop&dpr=2",
+    projectName: "Story Creator",
+    title: "Simple online video editing for digital creators",
+    replies: 75,
+    category: "Design Tools",
+    upvotes: 103,
+  },
+
+  {
+    image:
+      "https://ph-files.imgix.net/8c8aeb0f-8ce8-4a89-87bf-c7ad40bf3655.gif?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=80&h=80&fit=crop&dpr=2",
+    projectName: "IdeasAI",
+    title: "OpenAI-powered startup idea generator",
+    replies: 45,
+    category: "Productivity",
+    upvotes: 40,
+  },
+  {
+    image:
+      "https://ph-files.imgix.net/1658b209-59fc-466b-95e0-a8073e667ffd.gif?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=80&h=80&fit=crop&dpr=2",
+    projectName: "Story Creator",
+    title: "Simple online video editing for digital creators",
+    replies: 75,
+    category: "Design Tools",
+    upvotes: 103,
+  },
+
+  {
+    image:
+      "https://ph-files.imgix.net/8c8aeb0f-8ce8-4a89-87bf-c7ad40bf3655.gif?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=80&h=80&fit=crop&dpr=2",
+    projectName: "IdeasAI",
+    title: "OpenAI-powered startup idea generator",
+    replies: 45,
+    category: "Productivity",
+    upvotes: 40,
+  },
+  {
+    image:
+      "https://ph-files.imgix.net/1658b209-59fc-466b-95e0-a8073e667ffd.gif?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=80&h=80&fit=crop&dpr=2",
+    projectName: "Story Creator",
+    title: "Simple online video editing for digital creators",
+    replies: 75,
+    category: "Design Tools",
+    upvotes: 103,
+  },
+
+  {
+    image:
       "https://ph-files.imgix.net/197a5d74-45db-4e4d-b9f8-8a134479edda.jpeg?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=80&h=80&fit=crop&dpr=2",
     projectName: "Story Creator",
     title: "Simple online video editing for digital creators",
