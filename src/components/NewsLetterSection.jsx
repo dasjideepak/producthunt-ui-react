@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function NewsLetter() {
+export default function NEWSLETTER_SECTION() {
   return (
     <div className="newsletter-sec">
       <h1 className="card-heading">Newsletter</h1>

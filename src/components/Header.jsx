@@ -3,11 +3,7 @@ import { IoIosSearch } from "react-icons/io";
 import { VscEllipsis } from "react-icons/vsc";
 import { AiFillBell } from "react-icons/ai";
 
-const NavLinks = (props) => {
-  return <a href={props.url}>{props.name}</a>;
-};
-
-const Header = () => {
+export default function Header() {
   return (
     <div className="header">
       <div className="container flex">
@@ -47,6 +43,8 @@ const Header = () => {
       </div>
     </div>
   );
-};
+}
 
-export default Header;
+const NavLinks = (props) => {
+  return <a href={props.url}>{props.name}</a>;
+};

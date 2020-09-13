@@ -3,7 +3,7 @@ import { FaArrowUp } from "react-icons/fa";
 import { BsFillChatFill } from "react-icons/bs";
 import { ImReply } from "react-icons/im";
 
-export const PopularDiscussionCard = () => {
+export default function POPULAR_DISCUSSION_CARDS_SECTION() {
   return (
     <div className="discussion-card-sec">
       <h2>Popular Discussion</h2>
@@ -54,6 +54,4 @@ export const PopularDiscussionCard = () => {
       </div>
     </div>
   );
-};
-
-export default PopularDiscussionCard;
+}
