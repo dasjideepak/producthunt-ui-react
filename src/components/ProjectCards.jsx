@@ -2,6 +2,7 @@ import React from "react";
 import { BsFillChatFill } from "react-icons/bs";
 import { FaArrowUp } from "react-icons/fa";
 import { NEW_PROJECTS, TODAYS_PROJECTS, TOMORROWS_PROJECTS } from "../data";
+import { v4 as uuid } from "uuid";
 
 export default class PROJECTS_CARDS extends React.Component {
   render() {
@@ -19,7 +20,11 @@ export default class PROJECTS_CARDS extends React.Component {
         data: TOMORROWS_PROJECTS,
       },
     ].map((single) => (
-      <ProjectsCardsCollection label={single.label} data={single.data} />
+      <ProjectsCardsCollection
+        key={uuid()}
+        label={single.label}
+        data={single.data}
+      />
     ));
   }
 }
@@ -40,16 +45,17 @@ function ProjectCard(props) {
             <h5>{props.category}</h5>
           </div>
         </div>
-        <div className="upvote-btn">
+        <button className="upvote-btn" onClick={() => console.log("Hi")}>
           <FaArrowUp />
           <h5>{props.upvotes}</h5>
-        </div>
+        </button>
       </div>
     </div>
   );
 }
 
 function ProjectsCardsCollection(props) {
+  let key = 0;
   return (
     <div className="project-card-sec">
       <h2>{props.label}</h2>
@@ -61,6 +67,7 @@ function ProjectsCardsCollection(props) {
           replies={el.replies}
           category={el.category}
           upvotes={el.upvotes}
+          key={key++}
         />
       ))}
     </div>

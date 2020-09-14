@@ -3,7 +3,7 @@ import { IoIosSearch } from "react-icons/io";
 import { VscEllipsis } from "react-icons/vsc";
 import { AiFillBell } from "react-icons/ai";
 
-export default function Header() {
+export default function Header(props) {
   return (
     <div className="header">
       <div className="container flex">
@@ -24,15 +24,13 @@ export default function Header() {
             <NavLinks url="##" name="Discussions" />
             <NavLinks url="##" name="Ship" />
             <NavLinks url="##" name="Mentors" />
-            <button
-              onClick={() => console.log("Button Clicked")}
-              className="flex"
-            >
+            <button className="flex">
               <VscEllipsis className="icon" />
             </button>
           </div>
           <div className="user-login-display">
             <NavLinks url="##" name="Post" />
+            <button onClick={() => props.handleModal()}>Add</button>
             <AiFillBell className="icon" />
             <img
               src="https://ph-avatars.imgix.net/2390606/original?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=40&h=40&fit=crop&dpr=2"
@@ -46,5 +44,9 @@ export default function Header() {
 }
 
 const NavLinks = (props) => {
-  return <a href={props.url}>{props.name}</a>;
+  return (
+    <a href={props.url} onClick={props.onclick}>
+      {props.name}
+    </a>
+  );
 };
