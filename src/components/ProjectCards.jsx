@@ -1,32 +1,17 @@
 import React from "react";
 import { BsFillChatFill } from "react-icons/bs";
 import { FaArrowUp } from "react-icons/fa";
-import { NEW_PROJECTS, TODAYS_PROJECTS, TOMORROWS_PROJECTS } from "../data";
 import { v4 as uuid } from "uuid";
 
-export default class PROJECTS_CARDS extends React.Component {
-  render() {
-    return [
-      {
-        label: "What's New",
-        data: NEW_PROJECTS,
-      },
-      {
-        label: "Today",
-        data: TODAYS_PROJECTS,
-      },
-      {
-        label: "Tomorrow",
-        data: TOMORROWS_PROJECTS,
-      },
-    ].map((single) => (
-      <ProjectsCardsCollection
-        key={uuid()}
-        label={single.label}
-        data={single.data}
-      />
-    ));
-  }
+export default function PROJECTS_CARDS(props) {
+  return props.projectData.map((single) => (
+    <ProjectsCardsCollection
+      key={uuid()}
+      label={single.label}
+      data={single.data}
+      handleUpvotes={props.handleUpvotes}
+    />
+  ));
 }
 
 function ProjectCard(props) {
@@ -45,7 +30,10 @@ function ProjectCard(props) {
             <h5>{props.category}</h5>
           </div>
         </div>
-        <button className="upvote-btn" onClick={() => console.log("Hi")}>
+        <button
+          className="upvote-btn"
+          onClick={() => props.handleUpvotes(props.name)}
+        >
           <FaArrowUp />
           <h5>{props.upvotes}</h5>
         </button>
@@ -68,6 +56,7 @@ function ProjectsCardsCollection(props) {
           category={el.category}
           upvotes={el.upvotes}
           key={key++}
+          handleUpvotes={props.handleUpvotes}
         />
       ))}
     </div>

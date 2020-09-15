@@ -1,65 +1,8 @@
 export const NEW_PROJECTS = [
   {
     image:
-      "https://ph-files.imgix.net/d6103e00-6b87-484f-a71c-ec26df20b0b6.gif?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=80&h=80&fit=crop&dpr=2",
-    projectName: "IdeasAI",
-    title: "OpenAI-powered startup idea generator",
-    replies: 5,
-    category: "Productivity",
-    upvotes: 1340,
-  },
-  {
-    image:
-      "https://ph-files.imgix.net/1658b209-59fc-466b-95e0-a8073e667ffd.gif?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=80&h=80&fit=crop&dpr=2",
-    projectName: "Story Creator",
-    title: "Simple online video editing for digital creators",
-    replies: 75,
-    category: "Design Tools",
-    upvotes: 103,
-  },
-
-  {
-    image:
-      "https://ph-files.imgix.net/8c8aeb0f-8ce8-4a89-87bf-c7ad40bf3655.gif?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=80&h=80&fit=crop&dpr=2",
-    projectName: "IdeasAI",
-    title: "OpenAI-powered startup idea generator",
-    replies: 45,
-    category: "Productivity",
-    upvotes: 40,
-  },
-  {
-    image:
-      "https://ph-files.imgix.net/1658b209-59fc-466b-95e0-a8073e667ffd.gif?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=80&h=80&fit=crop&dpr=2",
-    projectName: "Story Creator",
-    title: "Simple online video editing for digital creators",
-    replies: 75,
-    category: "Design Tools",
-    upvotes: 103,
-  },
-
-  {
-    image:
-      "https://ph-files.imgix.net/8c8aeb0f-8ce8-4a89-87bf-c7ad40bf3655.gif?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=80&h=80&fit=crop&dpr=2",
-    projectName: "IdeasAI",
-    title: "OpenAI-powered startup idea generator",
-    replies: 45,
-    category: "Productivity",
-    upvotes: 40,
-  },
-  {
-    image:
-      "https://ph-files.imgix.net/1658b209-59fc-466b-95e0-a8073e667ffd.gif?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=80&h=80&fit=crop&dpr=2",
-    projectName: "Story Creator",
-    title: "Simple online video editing for digital creators",
-    replies: 75,
-    category: "Design Tools",
-    upvotes: 103,
-  },
-
-  {
-    image:
       "https://ph-files.imgix.net/197a5d74-45db-4e4d-b9f8-8a134479edda.jpeg?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=80&h=80&fit=crop&dpr=2",
-    projectName: "Story Creator",
+    projectName: "Story Creator1",
     title: "Simple online video editing for digital creators",
     replies: 28,
     category: "Design Tools",
@@ -68,7 +11,7 @@ export const NEW_PROJECTS = [
   {
     image:
       "https://ph-files.imgix.net/a3ec8cf7-b60c-4a60-8217-bf1a0a1c64d7.png?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=80&h=80&fit=crop&dpr=2",
-    projectName: "IdeasAI",
+    projectName: "IdeasAI1",
     title: "OpenAI-powered startup idea generator",
     replies: 53,
     category: "Productivity",
@@ -77,7 +20,7 @@ export const NEW_PROJECTS = [
   {
     image:
       "https://ph-files.imgix.net/d2d5e634-d33b-49f3-b6e0-deec8d1f8b57.gif?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=80&h=80&fit=crop&dpr=2",
-    projectName: "IdeasAI",
+    projectName: "IdeasA2",
     title: "OpenAI-powered startup idea generator",
     replies: 55,
     category: "Productivity",
@@ -89,7 +32,7 @@ export const TODAYS_PROJECTS = [
   {
     image:
       "https://ph-files.imgix.net/8c8aeb0f-8ce8-4a89-87bf-c7ad40bf3655.gif?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=80&h=80&fit=crop&dpr=2",
-    projectName: "IdeasAI",
+    projectName: "IdeasAI3",
     title: "OpenAI-powered startup idea generator",
     replies: 45,
     category: "Productivity",
@@ -98,7 +41,7 @@ export const TODAYS_PROJECTS = [
   {
     image:
       "https://ph-files.imgix.net/1658b209-59fc-466b-95e0-a8073e667ffd.gif?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=80&h=80&fit=crop&dpr=2",
-    projectName: "Story Creator",
+    projectName: "Story Creator2",
     title: "Simple online video editing for digital creators",
     replies: 75,
     category: "Design Tools",
@@ -108,7 +51,7 @@ export const TODAYS_PROJECTS = [
   {
     image:
       "https://ph-files.imgix.net/8c8aeb0f-8ce8-4a89-87bf-c7ad40bf3655.gif?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=80&h=80&fit=crop&dpr=2",
-    projectName: "IdeasAI",
+    projectName: "IdeasAI4",
     title: "OpenAI-powered startup idea generator",
     replies: 45,
     category: "Productivity",
@@ -117,7 +60,7 @@ export const TODAYS_PROJECTS = [
   {
     image:
       "https://ph-files.imgix.net/1658b209-59fc-466b-95e0-a8073e667ffd.gif?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=80&h=80&fit=crop&dpr=2",
-    projectName: "Story Creator",
+    projectName: "Story Creator5",
     title: "Simple online video editing for digital creators",
     replies: 75,
     category: "Design Tools",
@@ -129,7 +72,7 @@ export const TOMORROWS_PROJECTS = [
   {
     image:
       "https://ph-files.imgix.net/8c8aeb0f-8ce8-4a89-87bf-c7ad40bf3655.gif?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=80&h=80&fit=crop&dpr=2",
-    projectName: "IdeasAI",
+    projectName: "IdeasAI6",
     title: "OpenAI-powered startup idea generator",
     replies: 45,
     category: "Productivity",
@@ -138,7 +81,7 @@ export const TOMORROWS_PROJECTS = [
   {
     image:
       "https://ph-files.imgix.net/8c8aeb0f-8ce8-4a89-87bf-c7ad40bf3655.gif?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=80&h=80&fit=crop&dpr=2",
-    projectName: "IdeasAI",
+    projectName: "IdeasA7I",
     title: "OpenAI-powered startup idea generator",
     replies: 45,
     category: "Productivity",
@@ -147,7 +90,7 @@ export const TOMORROWS_PROJECTS = [
   {
     image:
       "https://ph-files.imgix.net/1658b209-59fc-466b-95e0-a8073e667ffd.gif?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=80&h=80&fit=crop&dpr=2",
-    projectName: "Story Creator",
+    projectName: "Story C7reator",
     title: "Simple online video editing for digital creators",
     replies: 75,
     category: "Design Tools",
@@ -157,7 +100,7 @@ export const TOMORROWS_PROJECTS = [
   {
     image:
       "https://ph-files.imgix.net/197a5d74-45db-4e4d-b9f8-8a134479edda.jpeg?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=80&h=80&fit=crop&dpr=2",
-    projectName: "Story Creator",
+    projectName: "Story Crheator",
     title: "Simple online video editing for digital creators",
     replies: 28,
     category: "Design Tools",
@@ -166,7 +109,7 @@ export const TOMORROWS_PROJECTS = [
   {
     image:
       "https://ph-files.imgix.net/a3ec8cf7-b60c-4a60-8217-bf1a0a1c64d7.png?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=80&h=80&fit=crop&dpr=2",
-    projectName: "IdeasAI",
+    projectName: "IdeasAAI",
     title: "OpenAI-powered startup idea generator",
     replies: 53,
     category: "Productivity",

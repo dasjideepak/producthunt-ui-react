@@ -11,12 +11,27 @@ import NEWSLETTER_SECTION from "./components/NewsLetterSection";
 import TOP_DISCUSSION_CARDS_SECTION from "./components/TopDiscussionCards";
 import Footer from "./components/Footer";
 import ModalBox from "./components/ModalBox";
+import { NEW_PROJECTS, TODAYS_PROJECTS, TOMORROWS_PROJECTS } from "./data";
 
 export default class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
       isModalVisible: false,
+      projectData: [
+        {
+          label: "What's New",
+          data: NEW_PROJECTS,
+        },
+        {
+          label: "Today",
+          data: TODAYS_PROJECTS,
+        },
+        {
+          label: "Tomorrow",
+          data: TOMORROWS_PROJECTS,
+        },
+      ],
     };
   }
 
@@ -24,18 +39,50 @@ export default class App extends React.Component {
     this.setState({ isModalVisible: !this.state.isModalVisible });
   };
 
+  handleUpvotes = (projectName) => {
+    let filtered = this.state.projectData.map((el) =>
+      el.data.filter((project) => project.projectName === projectName)
+    );
+    console.log(filtered);
+  };
+
+  handleAddProduct = (project) => {
+    this.setState({
+      projectData: [
+        {
+          label: "What's New",
+          data: [...NEW_PROJECTS, project],
+        },
+        {
+          label: "Today",
+          data: TODAYS_PROJECTS,
+        },
+        {
+          label: "Tomorrow",
+          data: TOMORROWS_PROJECTS,
+        },
+      ],
+    });
+  };
+
   render() {
     return (
       <div>
         {this.state.isModalVisible ? (
-          <ModalBox handleModal={this.handleModal} />
+          <ModalBox
+            handleModal={this.handleModal}
+            handleAddProduct={this.handleAddProduct}
+          />
         ) : (
           <>
             <Header handleModal={this.handleModal} />
             <main className="container flex">
               <div className="left-side">
                 <POPULAR_DISCUSSION_CARDS_SECTION />
-                <PROJECTS_CARDS />
+                <PROJECTS_CARDS
+                  projectData={this.state.projectData}
+                  handleUpvotes={this.handleUpvotes}
+                />
               </div>
               <div className="right-side">
                 <UPCOMING_PROJECTS_CARDS_SECTION />
